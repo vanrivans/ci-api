@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.0+no-version-set',
+        'version' => '1.0.0.0',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => NULL,
+        'name' => 'chriskacerguis/codeigniter-restserver',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'chriskacerguis/codeigniter-restserver' => array(
+            'pretty_version' => '1.0.0+no-version-set',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => NULL,
+            'dev_requirement' => false,
+        ),
+        'codeigniter/framework' => array(
+            'pretty_version' => '3.1.13',
+            'version' => '3.1.13.0',
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../codeigniter/framework',
+            'aliases' => array(),
+            'reference' => 'bcb17eb8ba53a85de154439d0ab8ff1bed047bc9',
+            'dev_requirement' => false,
+        ),
+        'mervick/aes-everywhere' => array(
+            'pretty_version' => 'v1.1.3',
+            'version' => '1.1.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../mervick/aes-everywhere',
+            'aliases' => array(),
+            'reference' => '5b0078aa579b5f4775979ec9a1b8b3c8c2debdbc',
+            'dev_requirement' => false,
+        ),
+    ),
+);
